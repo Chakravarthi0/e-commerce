@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <header class="navbar-container bg-primary">
+      <a class="link white" href="../../index.html">
+        <h2 class="nav-logo">E-commerce</h2>
+      </a>
+
+      <nav>
+        <ul class="list nav-links-container">
+          <li class="nav-search-container">
+            <input class="input nav-search" type="text" placeholder="Search" />
+          </li>
+          <li>
+            <a class="link btn btn-primary-inv" href="../index.html">Login</a>
+          </li>
+
+          <li>
+            <a class="nav-icon-container black" href="#">
+              <i class="fas fa-heart badge-container nav-icon">
+                <span class="badge badge-lg nav-icon">6</span>
+              </i>
+            </a>
+          </li>
+
+          <li>
+            <a class="nav-icon-container black" href="#">
+              <i class="fas fa-shopping-cart badge-container nav-icon">
+                <span class="badge badge-lg">96</span>
+              </i>
+            </a>
+          </li>
+        </ul>
+        <i class="material-icons hamburger-icon">menu</i>
+      </nav>
+    </header>
+
+    <!-- cart-container -->
+
+    <div class="cart-container">
+      <div class="cart-products">
+        <div class="cart-product-card">
+            <div class="cart-product-img">
+                <img
+                class="img-responsive"
+                src="../../assests/scenary.png"
+              />
+            </div>    
+          <div class="product-details">
+            <p class="product-title">Product 1</p>
+            <p class="product-brand">Brand</p>
+            <div class="product-price">
+              <span class="new-price">400</span>
+              <span><strike class="old-price">600</strike></span>
+            </div>
+            <div class="quantity">
+              quantity:
+              <button>+</button>
+              <input class="cart-quantity-inp" type="number" value="1" id="" />
+              <button>-</button>
+            </div>
+            <button class="btn btn-primary-ol btn-wide">
+              Move to wishlist
+            </button>
+            <button class="btn btn-danger-ol btn-wide">Remove from cart</button>
+          </div>
+        </div>
+
+        <div class="cart-product-card">
+            <div class="cart-product-img">
+                <img
+                class="img-responsive"
+                src="../../assests/phone.jpg"
+              />
+            </div>
+          <div class="product-details">
+            <p class="product-title">Product 1</p>
+            <p class="product-brand">Brand</p>
+            <div class="product-price">
+              <span class="new-price">400</span>
+              <span><strike class="old-price">600</strike></span>
+            </div>
+            <div class="quantity">
+              quantity:
+              <button>+</button>
+              <input class="cart-quantity-inp" type="number" value="1" id="" />
+              <button>-</button>
+            </div>
+            <button class="btn btn-primary-ol btn-wide">
+              Move to wishlist
+            </button>
+            <button class="btn btn-danger-ol btn-wide">Remove from cart</button>
+          </div>
+        </div>
+
+        <div class="cart-product-card">
+            <div class="cart-product-img">
+                <img
+                class="img-responsive"
+                src="../../assests/macbook.jpg"
+              />
+            </div>
+          <div class="product-details">
+            <p class="product-title">Product 1</p>
+            <p class="product-brand">Brand</p>
+            <div class="product-price">
+              <span class="new-price">400</span>
+              <span><strike class="old-price">600</strike></span>
+            </div>
+            <div class="quantity">
+              quantity:
+              <button>+</button>
+              <input class="cart-quantity-inp" type="number" value="1" id="" />
+              <button>-</button>
+            </div>
+            <button class="btn btn-primary-ol btn-wide">
+              Move to wishlist
+            </button>
+            <button class="btn btn-danger-ol btn-wide">Remove from cart</button>
+          </div>
+        </div>
+
+        <div class="cart-product-card">
+            <div class="cart-product-img">
+                <img
+                class="img-responsive"
+                src="../../assests/category-gadget.jpg"
+              />
+            </div>
+          <div class="product-details">
+            <p class="product-title">Product 1</p>
+            <p class="product-brand">Brand</p>
+            <div class="product-price">
+              <span class="new-price">400</span>
+              <span><strike class="old-price">600</strike></span>
+            </div>
+            <div class="quantity">
+              quantity:
+              <button>+</button>
+              <input class="cart-quantity-inp" type="number" value="1" id="" />
+              <button>-</button>
+            </div>
+            <button class="btn btn-primary-ol btn-wide">
+              Move to wishlist
+            </button>
+            <button class="btn btn-danger-ol btn-wide">Remove from cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="price-details">
+        <h2>Price details</h2>
+        <hr/>
+        <ul class="price-list">
+            <li class="price-details-list">
+                <p>Price(2 items)</p>
+                <p>4999</p>
+            </li>
+
+            <li class="price-details-list">
+                <p>Discount</p>
+                <p>4999</p>
+            </li>
+
+            <li class="price-details-list">
+                <p>Delivery charges</p>
+                <p>4999</p>
+            </li>
+            <hr>
+            <li class="price-details-list">
+                <p>Total price</p>
+                <p>4999</p>
+            </li>
+            <hr>
+        </ul>
+        <p class="savings">You will save 888 on this order</p>
+        <button class="btn btn-success btn-wide">
+            Place order
+        </button>
+      </div>
+    </div>
+        <!-- Footer -->
+
+        <footer class="footer bg-primary">
+            <p>Made with ☕ & ❤️</p>
+            <ul class="social-links list">
+                <li>
+                    <a class="link" href="https://github.com/Chakravarthi0">
+                            <i class="fab fa-github"></i>
+                        </a>
+                </li>
+                <li>
+                        <a class="link" href="https://www.linkedin.com/in/saran-chakravarthi">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                </li>
+                <li>
+                   
+                    <a class="link" href="https://twitter.com/SaranChakravar3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+      
+  </body>
+  <script src="https://protean-ui.netlify.app/main.js"></script>
+</html>

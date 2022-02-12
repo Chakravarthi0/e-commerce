@@ -33,6 +33,9 @@
 .cart-product-img{
     height: 25rem;
     width: 30rem;
+}
+
+.img-responsive{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }

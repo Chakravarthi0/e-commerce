@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
-    <link rel="stylesheet" href="authentication.css" />
+    <link rel="stylesheet" href="forget-password.css" />
   </head>
   <body>
     <header class="navbar-container bg-primary">
@@ -32,11 +32,14 @@
             <input class="input nav-search" type="text" placeholder="Search" />
           </li>
           <li>
-            <a class="link btn btn-primary-inv" href="#">Sign In</a>
+            <a class="link btn btn-primary-inv" href="../authentication/signin.html">Sign In</a>
           </li>
 
           <li>
-            <a class="nav-icon-container black" href="../wishlist/wishlist.html">
+            <a
+              class="nav-icon-container black"
+              href="../wishlist/wishlist.html"
+            >
               <i class="fas fa-heart badge-container nav-icon">
                 <span class="badge badge-lg nav-icon">6</span>
               </i>
@@ -55,28 +58,19 @@
       </nav>
     </header>
 
-    <!-- signin form -->
+    <!-- get mail form -->
 
     <div class="sign-x-form-container">
       <form class="sign-x-form">
-        <h2 class="text-center">SignIn</h2>
+        <h2 class="text-center">Reset Password</h2>
         <div class="input-container">
           <label>Email</label>
           <input class="input" type="email" required />
         </div>
-        <div class="input-container">
-          <label>Password</label>
-          <input class="input" type="password" required />
-        </div>
         <div>
-          <div class="sign-x-helper">
-            <div><input type="checkbox" /> Remember me</div>
-            <a href="../forget-password/get-mail.html" class="primary">Forgot password?</a>
-          </div>
-          <input class="btn btn-primary" type="submit" value="login" />
+          <input class="btn btn-primary getmail-btn" type="submit" value="send me a link" />
         </div>
-        <a class="sin-x-link" href="signup.html">Already have an account ></a>
-    </form>
+      </form>
     </div>
 
     <!-- Footer -->

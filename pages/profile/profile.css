@@ -1,0 +1,17 @@
+@import url("../../main.css");
+@import url("../authentication/authentication.css");
+
+.user-profile {
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-card-head {
+  display: flex;
+  gap: 1rem;
+  margin-left: 3rem;
+}
+
+.edit-icon {
+  cursor: pointer;
+}

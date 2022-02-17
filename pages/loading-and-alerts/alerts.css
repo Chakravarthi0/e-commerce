@@ -1,0 +1,40 @@
+@import url("../../main.css");
+
+.btns-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.toast {
+  background-color: transparent;
+  border-radius: 5px;
+  bottom: 10rem;
+}
+
+.alert {
+  max-width: none;
+}
+
+.footer {
+  margin-top: 5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .toast {
+    bottom: 8rem;
+    min-width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .toast {
+    min-width: 70%;
+  }
+}

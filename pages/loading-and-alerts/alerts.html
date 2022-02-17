@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
-    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="alerts.css" />
   </head>
   <body>
     <header class="navbar-container bg-primary">
@@ -32,11 +32,7 @@
             <input class="input nav-search" type="text" placeholder="Search" />
           </li>
           <li>
-            <a
-              class="link btn btn-primary-inv"
-              href="../authentication/signin.html"
-              >Sign In</a
-            >
+            <a class="link btn btn-primary-inv" href="#">Sign In</a>
           </li>
 
           <li>
@@ -62,29 +58,85 @@
       </nav>
     </header>
 
-    <!-- Profile card -->
+    <!-- alerts -->
 
-    <div class="sign-x-form-container">
-      <div class="sign-x-form user-profile">
-        <div class="profile-card-head">
-          <h2 class="text-center">My Profile</h2>
-          <i class="material-icons edit-icon">mode_edit</i>
+    <div class="btns-container">
+      <button toast-btn-for="toast-one" class="btn btn-primary toast-open-btn">
+        Add to cart
+      </button>
+      <button toast-btn-for="toast-two" class="btn btn-primary toast-open-btn">
+        Move to wishlist
+      </button>
+      <button
+        toast-btn-for="toast-three"
+        class="btn btn-primary toast-open-btn"
+      >
+        Remove from cart
+      </button>
+      <button toast-btn-for="toast-four" class="btn btn-primary toast-open-btn">
+        Remove from wishlist
+      </button>
+      <button
+        modal-btn-for="modal-one"
+        class="btn btn-primary modal-open-btn"
+      >
+        cancel payment
+      </button>
+
+      <div id="toast-one" class="toast toast-center toast-timed hidden">
+        <p class="alert bg-success">
+          <i class="material-icons">done</i>
+          Item added to cart.
+        </p>
+      </div>
+
+      <div id="toast-two" class="toast toast-center toast-timed hidden">
+        <p class="alert bg-success">
+          <i class="material-icons">done</i>
+          Item moved to wishlist.
+        </p>
+      </div>
+
+      <div id="toast-three" class="toast toast-center toast-timed hidden">
+        <p class="alert bg-success">
+          <i class="material-icons">done</i>
+          Item removed from cart.
+        </p>
+      </div>
+
+      <div id="toast-four" class="toast toast-center toast-timed hidden">
+        <p class="alert bg-success">
+          <i class="material-icons">done</i>
+          Item removed from wishlist.
+        </p>
+      </div>
+
+      <div id="modal-one" class="modal-bg hidden">
+        <div class="modal position-rel">
+          <h2 class="text-large list-head">Cancel payment</h2>
+          <i
+            modal-btn-for="modal-one"
+            class="material-icons modal-close-btn position-abs top-0 right-0"
+            >close</i
+          >
+          <p>
+              Are you sure that you want cancel the payment.
+          </p>
+          <div class="modal-actions">
+            <button
+              modal-btn-for="modal-one"
+              class="btn btn-primary modal-close-btn"
+            >
+              No
+            </button>
+            <button
+              modal-btn-for="modal-one"
+              class="btn btn-primary-ol modal-close-btn"
+            >
+              Yes
+            </button>
+          </div>
         </div>
-        <p class="avatar avatar-md avatar-initial bg-success">SC</p>
-        <p class="user-name">Saran Chakravarthi</p>
-        <p class="mail">saran@test.com</p>
-        <p class="mob-no">+91 9999999999</p>
-        <div class="user-address text-center">
-          <p class="street">221B Baker Street</p>
-          <p class="city">Marylebone, Westminster</p>
-          <p class="country">London</p>
-          <i class="material-icons address-edit btn btn-dark btn-float">
-            <a class="link white" href="../address-management/address-management.html">edit</a>
-          </i>
-        </div>
-        <button class="btn btn-primary log-out-btn">
-          <a class="link btn" href="../authentication/signout.html">Log Out</a>
-        </button>
       </div>
     </div>
 

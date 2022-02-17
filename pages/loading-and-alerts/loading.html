@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
-    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="loading.css" />
   </head>
   <body>
     <header class="navbar-container bg-primary">
@@ -32,11 +32,7 @@
             <input class="input nav-search" type="text" placeholder="Search" />
           </li>
           <li>
-            <a
-              class="link btn btn-primary-inv"
-              href="../authentication/signin.html"
-              >Sign In</a
-            >
+            <a class="link btn btn-primary-inv" href="#">Sign In</a>
           </li>
 
           <li>
@@ -62,30 +58,10 @@
       </nav>
     </header>
 
-    <!-- Profile card -->
+    <!-- loader -->
 
-    <div class="sign-x-form-container">
-      <div class="sign-x-form user-profile">
-        <div class="profile-card-head">
-          <h2 class="text-center">My Profile</h2>
-          <i class="material-icons edit-icon">mode_edit</i>
-        </div>
-        <p class="avatar avatar-md avatar-initial bg-success">SC</p>
-        <p class="user-name">Saran Chakravarthi</p>
-        <p class="mail">saran@test.com</p>
-        <p class="mob-no">+91 9999999999</p>
-        <div class="user-address text-center">
-          <p class="street">221B Baker Street</p>
-          <p class="city">Marylebone, Westminster</p>
-          <p class="country">London</p>
-          <i class="material-icons address-edit btn btn-dark btn-float">
-            <a class="link white" href="../address-management/address-management.html">edit</a>
-          </i>
-        </div>
-        <button class="btn btn-primary log-out-btn">
-          <a class="link btn" href="../authentication/signout.html">Log Out</a>
-        </button>
-      </div>
+    <div class="loader-container">
+        <div class="loader"></div>
     </div>
 
     <!-- Footer -->

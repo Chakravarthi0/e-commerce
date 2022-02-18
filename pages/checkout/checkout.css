@@ -160,7 +160,7 @@
   }
   .product-details {
     align-items: center;
-    max-width: 28rem;
+    margin: 0;
   }
   .checkout-product-img {
     border-bottom-left-radius: 0;

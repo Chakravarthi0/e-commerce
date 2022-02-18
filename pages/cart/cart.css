@@ -95,6 +95,16 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .cart-products {
+    align-items: center;
+  }
+  .cart-container {
+    grid-template-columns: 1fr;
+    margin: 2rem;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .cart-product-card {
     flex-direction: column;
@@ -110,14 +120,8 @@
     border-bottom-left-radius: 0;
     border-top-right-radius: 1rem;
   }
-}
-
-@media screen and (max-width: 750px) {
-  .cart-products {
+  .product-details {
     align-items: center;
-  }
-  .cart-container {
-    grid-template-columns: 1fr;
-    margin: 2rem;
+    margin: 0;
   }
 }

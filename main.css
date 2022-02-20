@@ -12,6 +12,9 @@
     width: 90%;
 }
 
+.nav-logo{
+    font-size: 3.2rem;
+}
 .nav-icon{
     font-size: 2rem;
     color: var(--white);

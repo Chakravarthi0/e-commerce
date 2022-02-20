@@ -30,3 +30,6 @@ Clone the repository or download the repository as zip and unzip it in your loca
  - Order Summary
  - Apply Coupons
  - Remember me while login
+
+https://user-images.githubusercontent.com/57091383/154864596-cafabe18-d894-402f-ac38-2ac84e6e4393.mp4
+

@@ -8,28 +8,29 @@ Clone the repository or download the repository as zip and unzip it in your loca
 
 ## Features
 
- - Home Page
- - Product Listing Page
- - Filters by
+ - Responsive
+ - Home Page - https://e-com-pages.netlify.app/
+ - Product Listing Page - https://e-com-pages.netlify.app/pages/product/product.html
+ - Filters by - https://e-com-pages.netlify.app/pages/product/product.html
     - Price
     - Category
     - Ratings
- - Cart Management
- - Wishlist Management
+ - Cart Management - https://e-com-pages.netlify.app/pages/cart/cart.html
+ - Wishlist Management - https://e-com-pages.netlify.app/pages/wishlist/wishlist.html
  - Authentication
-    - Sign-up
-    - Login
-    - Logout
- - Search
- - Address Management
- - Checkout
- - Single Product Page
- - Forget Password
- - Loading & Alerts
- - User Profile Page
- - Order Summary
- - Apply Coupons
- - Remember me while login
+    - Sign-up - https://e-com-pages.netlify.app/pages/authentication/signup.html
+    - Login - https://e-com-pages.netlify.app/pages/authentication/signin.html
+    - Logout - https://e-com-pages.netlify.app/pages/authentication/signout.html
+ - Search (in navbar) - https://e-com-pages.netlify.app/
+ - Address Management - https://e-com-pages.netlify.app/pages/address-management/address-management.html
+ - Checkout - https://e-com-pages.netlify.app/pages/checkout/checkout.html
+ - Single Product Page - https://e-com-pages.netlify.app/pages/single-product/single-product.html
+ - Forget Password - https://e-com-pages.netlify.app/pages/forgot-password/get-mail.html , https://e-com-pages.netlify.app/pages/forgot-password/reset-password.html
+ - Loading & Alerts - https://e-com-pages.netlify.app/pages/loading-and-alerts/loading.html , https://e-com-pages.netlify.app/pages/loading-and-alerts/alerts.html
+ - User Profile Page - https://e-com-pages.netlify.app/pages/profile/profile.html
+ - Order Summary - https://e-com-pages.netlify.app/pages/order-summary/order-summary.html
+ - Apply Coupons (above price details section) - https://e-com-pages.netlify.app/pages/checkout/checkout.html
+ - Remember me while login - https://e-com-pages.netlify.app/pages/authentication/signin.html
 
 https://user-images.githubusercontent.com/57091383/154864596-cafabe18-d894-402f-ac38-2ac84e6e4393.mp4
 
